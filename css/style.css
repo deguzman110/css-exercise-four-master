@@ -1,0 +1,169 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  font-size: 10px;
+}
+
+.container {
+  background-color: #dadada;
+  margin: 20px auto;
+  width: 90%;
+}
+
+div{
+  background-color: #dadada;
+  float: left;
+  margin: 1% 0;
+  width: 100%;
+  padding: 20px 25px;
+}
+
+h1 {
+  font-family: system-ui, sans-serif;
+  font-size: 2.5em;
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.baku {
+  height: 250px;
+  background-image: url(../images/baku.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 515px;
+}
+
+.london {
+  height: 250px;
+  background-image: url(../images/london.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 515px;
+}
+
+.madrid {
+  height: 250px;
+  background-image: url(../images/madrid.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 515px;
+}
+
+.rome {
+  height: 250px;
+  background-image: url(../images/rome.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 515px;
+}
+
+/* for two-column design (tablets) */
+
+@media screen and (min-width: 575px) {
+  body {
+    background-color: #dadada;
+  }
+
+  div {
+    background-color: #dadada;
+    margin: 1%;
+    width: 48%;
+  }
+
+  h1, h3 {
+    font-size: 2.5em;
+    margin: 0;
+  }
+
+  h3 {
+    font-size: 1.8em;
+    font-weight: 300;
+  }
+
+  .baku {
+    height: 250px;
+    background-image: url(../images/baku.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 450px;
+  }
+
+  .london {
+    height: 250px;
+    background-image: url(../images/london.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 450px;
+  }
+
+  .madrid {
+    height: 250px;
+    background-image: url(../images/madrid.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 450px;
+  }
+
+  .rome {
+    height: 250px;
+    background-image: url(../images/rome.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 450px;
+  }
+}
+/* for four-column design (laptops) */
+
+@media screen and (min-width: 991px) {
+  div {
+    background-color: #dadada;
+    margin: 1%;
+    width: 23%;
+  }
+
+  h1, h3 {
+    font-size: 2.5em;
+    margin: 0;
+  }
+
+  h3 {
+    font-size: 1.8em;
+    font-weight: 300;
+  }
+
+  .baku {
+    height: 250px;
+    background-image: url(../images/baku.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 450px;
+  }
+
+  .london {
+    height: 250px;
+    background-image: url(../images/london.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 450px;
+  }
+
+  .madrid {
+    height: 250px;
+    b ackground-image: url(../images/madrid.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 450px;
+  }
+
+  .rome {
+    height: 250px;
+    background-image: url(../images/rome.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 450px;
+  }
+}
